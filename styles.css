@@ -15,7 +15,7 @@ body{
 }
 
 .gameboy-background{
-    background-image: url("Gameboy.JPG");
+    background-image: url("../../gameboy.JPG");
     background-size: cover;
     height: 500px;
     width: 300px;
