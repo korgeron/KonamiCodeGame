@@ -1,5 +1,10 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
 .gameboy-background{
-    background-image: url(../img/gameboy.jpeg);
+    background-image: url(./img/gameboy.jpeg);
     background-size: cover;
     height: 500px;
     width: 300px;
