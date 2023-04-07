@@ -2,6 +2,18 @@
 //(1) DOESN'T PLAY SOUND EFFECTS EVERY TIME FOR CORRECT INPUT
 $(function () {
     "use strict";
+
+    document.querySelector('.challenge-btn').addEventListener('click', ()=>{
+        document.querySelector('body').style.background = "white";
+        document.querySelector('.rules-popup').style.display = "none";
+        document.querySelector('.container').style.display = "block";
+
+    })
+
+
+
+
+
     $('.text-alert').css('color', 'rgb(0,0,0,0)');   //SETS ALERT TEXT TO INVISIBLE
     let life = 0;
     let level = 0;
