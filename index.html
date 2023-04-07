@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Konami Code</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--AUDIO FOR WHEN KONAMI CODE IS ENTERED-->
+<audio id="my-audio" src="audio/30-life-cheat.wav"></audio>
+
+<!--AUDIO FOR WHEN THE BUCKET IS RESET-->
+<audio id="audio-recharge" src="audio/recharge.wav"></audio>
+
+<!--AUDIO FOR IF YOU DIE-->
+<audio id="audio-game-over" src="audio/game-over.wav"></audio>
+
+<!--AUDIO FOR IF YOU WIN-->
+<audio id="audio-game-won" src="audio/game-win.wav"></audio>
+
+<h1 CLASS="text-center text-danger">Konami Code</h1>
+
+<div class="container gameboy-background">
+    <div class="current-level"></div>
+    <div class="my-keys">key pressed</div>
+    <h3 id="my-alert" class="text-alert text-center">You have added 30 lives!!</h3>
+    <h2 id="lives" class="life-class"></h2>
+</div>
+
+<br>
+<div style="text-align: center">
+    <h1>Rules: </h1>
+    <p>1. Enter the code to start the game</p>
+    <p>2. Screen turns green to indicate a new level</p>
+    <p>3. Reach level 6 to win</p>
+    <h5>Code: up-arrow, up-arrow, down-arrow, down-arrow, left-arrow, right-arrow, left-arrow, right-arrow, b, a</h5>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+
+<script src="index.js"></script>
+</body>
+</html>

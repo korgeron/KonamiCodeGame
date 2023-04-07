@@ -1,0 +1,27 @@
+* {
+    overflow-y: hidden;
+}
+
+.gameboy-background{
+    background-image: url(../img/gameboy.jpeg);
+    background-size: cover;
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+    border: grey 1px solid;
+}
+
+.life-class{
+    text-align: center;
+    padding-top: 4rem;
+}
+.my-keys{
+    position: absolute;
+    padding-top: 16rem;
+}
+
+.current-level{
+    position: absolute;
+    padding-top: 5rem;
+    padding-left: 4rem;
+}
