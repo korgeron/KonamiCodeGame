@@ -15,8 +15,9 @@ body{
 }
 
 .gameboy-background{
-    /*background-image: url("../../gameboy.JPG");*/
+    margin-top: 10vh;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 500px;
     width: 300px;
     border-radius: 20px;
@@ -41,7 +42,7 @@ body{
 .rules-popup{
     color: white;
     font-weight: bold;
-    margin: 5em 1em 5em 1em;
+    margin: 2em 1em 2em 1em;
     padding: 1em;
     border: 1px solid blue;
     border-radius: 1em;
@@ -49,8 +50,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 1.5em;
 }
 .rules-popup > h5{
+    color: lightgreen;
+    font-size: 1.5em;
     text-align: center;
 }
 .challenge-btn{
