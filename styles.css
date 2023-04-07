@@ -3,7 +3,7 @@ body{
 }
 
 .gameboy-background{
-    background-image: url(./img/gameboy.JPEG);
+    background-image: url(./img/gameboy.JPG);
     background-size: cover;
     height: 500px;
     width: 300px;
